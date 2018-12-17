@@ -26,7 +26,7 @@ class Persona{
     Persona(String nombre){
         this.nombre = nombre;
         Imprimir i = new Imprimir();
-        i.imprimir(this);
+        i.imprimir(this); //aca this esta apuntando al objeto persona ya que es el que se esta trabajando actualmente
     }
     
 }
@@ -34,7 +34,7 @@ class Persona{
 class Imprimir{
     public void imprimir(Object o){
         System.out.println("Imprimir parametros: " + o);
-        System.out.println("Imprimir objeto actual(this): " + this);
-        
+        System.out.println("Imprimir objeto actual(this): " + this); // ahora apunta al objeto imprimir´porque estaba trabajando.
+              
     }
 }
