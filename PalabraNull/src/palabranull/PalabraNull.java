@@ -36,7 +36,7 @@ public class PalabraNull {
 class Persona{
     String nombre;
     
-    Persona(String nombre){
+    public Persona(String nombre){
         this.nombre = nombre;
     }
     
