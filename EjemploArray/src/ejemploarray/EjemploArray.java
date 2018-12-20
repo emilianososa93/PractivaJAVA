@@ -34,6 +34,32 @@ public class EjemploArray {
             System.out.println("Arreglo Object Personas2 indice "+i+" : "+ personas2[i]);
         }
         
+        System.out.println("");
+        int numeros[][] = new int[3][2];
+        numeros[0][0] = 10;
+        numeros[0][1] = 20;
+        numeros[1][0] = 30;
+        numeros[1][1] = 40;
+        numeros[2][0] = 50;
+        numeros[2][1] = 60;
+        
+        System.out.println("La matriz en la posicion [0][0]: "+numeros[0][0]);
+        System.out.println("La matriz en la posicion [0][1]: "+numeros[0][1]);
+        System.out.println("La matriz en la posicion [1][0]: "+numeros[1][0]);
+        System.out.println("La matriz en la posicion [1][1]: "+numeros[1][1]);
+        System.out.println("La matriz en la posicion [2][0]: "+numeros[2][0]);
+        System.out.println("La matriz en la posicion [2][1]: "+numeros[2][1]);
+        
+        System.out.println("");
+        System.out.println("Ahora lo recorro con un for");
+        for (int j=0;j < numeros.length; j++){
+            for (int k=0; k < numeros[j].length; k++){
+                /* numeros[j] es para indicarle el nuermo de renglon seleccionado- */
+                System.out.println("La matriz en la posicion " + j + "-" + k + "es: "+numeros[j][k]);
+            }
+        }
+
+        
     }
     
 }
