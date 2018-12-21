@@ -5,6 +5,7 @@
  */
 package argumentos.variables;
 
+
 /**
  *
  * @author Emiliano
@@ -20,6 +21,10 @@ public class ArgumentosVariables {
         imprimirVarios("EMiliano","SOSA",12,514,584,545,1);
         System.out.println("");
         imprimirNumero(10,212,212,558);
+        System.out.println("El valor 1 es:"+ Dias.LUNES);
+        System.out.println("La cantidad de pasises de AMERICA es:"+ Continente.AMERICA.getCantidadPaises());
+        System.out.println("");
+        ImprimirContienente();
     }
     
     public static void imprimirNumero(int... numeros){
@@ -40,6 +45,12 @@ public class ArgumentosVariables {
 
         for(int numero : numeros){
             System.out.println("El numero es: "+numero);
+        }
+    }
+    
+    public static void ImprimirContienente(){
+        for(Continente contienente : Continente.values()){
+            System.out.println("El numero es: "+contienente + "con la cantidad de paises"+contienente.getCantidadPaises());
         }
     }
 }
