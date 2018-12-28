@@ -29,6 +29,8 @@ public class EjemploConversionDatos {
         System.out.println("\nDetalle:"+empleado.obtenerDetalle());
         
         if (empleado instanceof Escritor ){
+            //down casting, es decir, conversion hacia abajo.
+            // convertimos empleado al tipo Escritor. 
             resultado = ((Escritor)empleado).tipoescritura.getDescripcion();
             System.out.println("resultado tipo escritura: "+resultado);
            
