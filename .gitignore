@@ -101,3 +101,5 @@ hs_err_pid*
 /IntroduccionJDBC/build/
 /ManejoPersonas/nbproject/private/
 /ManejoPersonas/build/
+/ManejoTransacciones/nbproject/private/
+/ManejoTransacciones/build/

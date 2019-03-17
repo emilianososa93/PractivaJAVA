@@ -26,6 +26,7 @@ public class ManejoPersonas {
         List<Persona> personas = personajdbc.select();
         for (Persona persona : personas){
             System.out.println(persona.toString());
+            System.out.println("hello!");
         } 
     }
     
