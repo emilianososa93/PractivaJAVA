@@ -105,3 +105,6 @@ hs_err_pid*
 /ManejoTransacciones/build/
 /CallableStatementFunciones/nbproject/private/
 /CallableStatementFunciones/build/
+/CallableStatementProcedimiento/nbproject/private/
+/CallableStatementProcedimiento/build/
+/CallableStatementProcedimiento/dist/
